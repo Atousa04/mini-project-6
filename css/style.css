@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    height: 80px;
+    position: relative;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.menu-list1 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.menu-list1 img {
+    margin: 15px 0px 0px 25px;
+    cursor: pointer;
+}
+
+.menu-list1 li {
+    position: relative;
+    bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 30px 15px;
+}
+
+.menu-list1 li:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.menu-list2 {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.menu-list2 .text li {
+    position: relative;
+    top: 21px;
+    right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px 20px;
+    margin: 0 10px;
+}
+
+.menu-list2 .text li.menu-item:hover {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+
+.menu-list2 .icon {
+    margin: 0 10px;
+}
+
+.menu-list2 .icon li {
+    position: relative;
+    top: 22px;
+    padding: 10px;
+}
+
+.menu-list2 .icon li:hover {
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+
+.login {
+    width: 140px;
+    background-color: #04aa6d;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+.login:hover {
+    background-color: #059862;
+}
+
+.header ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container {
+    height: 550px;
+    background-color: #282b38;
+    position: relative;
+}
+
+.container .left {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.container .title {
+    color: white;
+    font-size: 80px;
+}
+
+.container .desc {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn1 {
+    width: 210px;
+    margin: auto;
+    color: white;
+    background-color: #04aa6d;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #059862;
+} 
+
+.btn2 {
+    width: 210px;
+    margin: auto;
+    color: black;
+    background-color: white;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #f1f1f1;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.cnt {
+    width: 600px;
+    height: 400px;
+    background-color: #e7e9eb;
+    border-radius: 5px;
+}
+
+.code-title {
+    color: black;
+    padding-top: 30px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+
+.code {
+    width: 570px;
+    height: 240px;
+    background-color: white;
+    margin: auto;
+    border-left: 5px solid #04aa6d;
+    padding-top: 23px;
+    padding-left: 12px;
+}
+
+.btn {
+    width: 200px;
+    background-color: #04aa6d;
+    padding: 12px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #059862;
+}
